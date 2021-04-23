@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A06CF0C25ECC6D9002FE3DD /* KeyboardFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06CF0B25ECC6D9002FE3DD /* KeyboardFollower.swift */; };
+		098458D7263292AA004F6806 /* KeyboardFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098458D6263292AA004F6806 /* KeyboardFollower.swift */; };
 		0A06CF0F25ECC6ED002FE3DD /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06CF0E25ECC6ED002FE3DD /* Color+Extensions.swift */; };
 		0AEAC26A245BF9760009F857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEAC269245BF9760009F857 /* AppDelegate.swift */; };
 		0AEAC26C245BF9760009F857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEAC26B245BF9760009F857 /* SceneDelegate.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A06CF0B25ECC6D9002FE3DD /* KeyboardFollower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardFollower.swift; path = ../../final/Sources/App/Utils/KeyboardFollower.swift; sourceTree = "<group>"; };
+		098458D6263292AA004F6806 /* KeyboardFollower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFollower.swift; sourceTree = "<group>"; };
 		0A06CF0E25ECC6ED002FE3DD /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		0AEAC266245BF9760009F857 /* emitronette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emitronette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEAC269245BF9760009F857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 				0AEAC269245BF9760009F857 /* AppDelegate.swift */,
 				0AEAC26B245BF9760009F857 /* SceneDelegate.swift */,
 				0AEAC26D245BF9760009F857 /* ContentView.swift */,
-				0A06CF0B25ECC6D9002FE3DD /* KeyboardFollower.swift */,
+				098458D6263292AA004F6806 /* KeyboardFollower.swift */,
 				0AEAC293245BFEA10009F857 /* Extensions */,
 				0AEAC26F245BF9790009F857 /* Assets.xcassets */,
 				0AEAC274245BF9790009F857 /* LaunchScreen.storyboard */,
@@ -161,9 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AEAC26A245BF9760009F857 /* AppDelegate.swift in Sources */,
-				0A06CF0C25ECC6D9002FE3DD /* KeyboardFollower.swift in Sources */,
 				0A06CF0F25ECC6ED002FE3DD /* Color+Extensions.swift in Sources */,
 				0AEAC26C245BF9760009F857 /* SceneDelegate.swift in Sources */,
+				098458D7263292AA004F6806 /* KeyboardFollower.swift in Sources */,
 				0AEAC26E245BF9760009F857 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -38,17 +38,28 @@ struct ContentView: View {
   @ObservedObject var keyboardHandler = KeyboardFollower()
   
   var body: some View {
-      VStack {
+      ScrollView {
+        Image("welcomeArtwork")
+        Image("welcomeArtwork")
+        
         TextField(
           "Search…",
           text: $textFieldString
         )
         .padding(textFieldPadding)
         .background(textFieldBackground)
-        
-        Spacer()
+
+        TextField(
+          "Search…",
+          text: $textFieldString
+        )
+        .padding(textFieldPadding)
+        .background(textFieldBackground)
+
       }
       .padding(20)
+      .offset(x: 0, y: -keyboardHandler.keyboardHeight)
+      .edgesIgnoringSafeArea(keyboardHandler.isVisible ? .bottom : [])
   }
   
   //MARK: - Fancy TextField Styling

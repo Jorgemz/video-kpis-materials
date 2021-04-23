@@ -37,7 +37,13 @@ class KeyboardFollower : ObservableObject {
   @Published var isVisible = false
   
   init() {
-    NotificationCenter.default.addObserver(self, selector: #selector(keyboardVisibilityChanged), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+    NotificationCenter
+      .default
+      .addObserver(
+        self,
+        selector: #selector(keyboardVisibilityChanged),
+        name: UIResponder.keyboardWillChangeFrameNotification,
+        object: nil)
   }
   
   deinit {
