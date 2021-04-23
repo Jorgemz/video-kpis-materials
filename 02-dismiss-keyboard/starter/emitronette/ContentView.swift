@@ -51,6 +51,7 @@ struct ContentView: View {
       )
       .padding(textFieldPadding)
       .background(textFieldBackground)
+      .keyboardType(.phonePad)
       
       Image("welcomeArtwork")
     }
